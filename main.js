@@ -9,6 +9,7 @@ import Company from './src/components/company';
 import Goods from './src/components/goods';
 import Shop from './src/components/shop';
 import News from './src/components/news';
+import Contact from './src/components/contact';
 
 
 export default class Rout extends React.Component {
@@ -21,6 +22,7 @@ export default class Rout extends React.Component {
       			<Route path='/goods' component={Goods}/>
       			<Route path='/shop' component={Shop}/>
       			<Route path='/news' component={News}/>
+            <Route path='/contact' component={Contact}/>
           </Router>
       </div>
     );
